@@ -22,7 +22,7 @@ window.addEventListener("iv_player_paused", function(e){
 
 // Or we can pause/resume the video, like so:
 videoplayer.pause();
-videoplayer.resume(); // Only possible after the video has first been started by a user interaction.
+videoplayer.resume(); // Only possible after the video has been started by a user interaction at least once.
 
 // If your code needs to know whether the video is currently playing:
 videoplayer.playing // (bool) true/false

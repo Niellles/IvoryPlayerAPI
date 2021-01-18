@@ -18,7 +18,7 @@ class IvoryPlayerAPI {
             domain_expression = /^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
             if (!options.domain.match(new RegExp(domain_expression))){
                 console.error("Provided domain is not a valid domain.");
-                    return;
+                return;
             }
 
             this.domain = options.domain;
